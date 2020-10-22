@@ -2,16 +2,16 @@
 class AssumeRole < Formula
   desc ""
   homepage ""
-  version "0.4.1-rc1"
+  version "0.4.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/danielthank/assume-role/releases/download/v0.4.1-rc1/assume-role_0.4.1-rc1_Darwin_x86_64.tar.gz"
-    sha256 "5688de07c28478f8d87ea7cb8fedbb2767e1487e17c084e3640119dcddf2a088"
+    url "https://github.com/danielthank/assume-role/releases/download/v0.4.1/assume-role_0.4.1_Darwin_x86_64.tar.gz"
+    sha256 "236fa769719b42cb4105067f07e2348a8ac4931fe8341f9d4fc74c30cbd7eb7b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/danielthank/assume-role/releases/download/v0.4.1-rc1/assume-role_0.4.1-rc1_Linux_x86_64.tar.gz"
-      sha256 "8c08ab4179ef08db357353abf4bf681fbd7c654b1ed2ef61e9c02dc12e065b57"
+      url "https://github.com/danielthank/assume-role/releases/download/v0.4.1/assume-role_0.4.1_Linux_x86_64.tar.gz"
+      sha256 "b85f82a5876c2c4eb6ad7c3b22b9836b88232db65033f2a2b1897852f6876506"
     end
   end
 
