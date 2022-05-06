@@ -3,7 +3,6 @@ class AssumeRole < Formula
   desc ""
   homepage ""
   version "0.4.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/danielthank/assume-role/releases/download/v0.4.1/assume-role_0.4.1_Darwin_x86_64.tar.gz"
